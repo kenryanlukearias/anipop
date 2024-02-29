@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    // display: flex;
+    background-color: #333;
+    height: 50px;
+    width: 100%;
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav li{
+    margin-right: 15px;
+    position: relative;
+}
+
+nav li:hover ul{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    width:max-content;
+    transform: translateX(-25px);
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
