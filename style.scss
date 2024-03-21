@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP&display=swap);
+
+$yellow: #D0B02D;
+$navy: #1F2032;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+// .container {
+//   max-width: 400px;
+//   width: 100%;
+//   margin: 0 auto;
+//   position: relative;
+// }
+
+// #contact input {
+//   font: 400 12px/16px;
+//   width: 100%;
+//   border: 1px solid #CCC;
+//   background: #FFF;
+//   margin: 10 5px;
+//   padding: 10px;
+// }
+
+// h1 {
+//   margin-bottom: 30px;
+//   font-size: 30px;
+// }
+
+// #contact {
+//   background: #F9F9F9;
+//   padding: 25px;
+//   margin: 50px 0;
+// }
+
+
+// fieldset {
+//   border: medium none !important;
+//   margin: 0 0 10px;
+//   min-width: 100%;
+//   padding: 0;
+//   width: 100%;
+// }
+
+// textarea {
+//   height: 100px;
+//   max-width: 100%;
+//   resize: none;
+//   width: 100%;
+// }
+
+// button {
+//   cursor: pointer;
+//   width: 100%;
+//   border: none;
+//   background: rgb(17, 146, 60);
+//   color: #FFF;
+//   margin: 0 0 5px;
+//   padding: 10px;
+//   font-size: 20px;
+// }
+
+// button:hover {
+//   background-color: rgb(15, 95, 42);
+// }
+
+
+// Navigation bar SCSS
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+}
+
+nav ul li {
+  margin-right: 20%;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 40px;
+}
+
+nav ul li a:hover {
+  color: $yellow;
+}
+
+.sag-image {
+  width: 10%;
+  height: auto;
+  display: flex;
+}
+
+.quote-button {
+  background-color: $yellow;
+  color: black;
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 55px;
+  width: 7%;
+  cursor: pointer;
+}
+
+
+//main content SCSS
+.main-body {
+  display: flex;
+  background-image: url(Images/pic1.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  width: auto;
+  color: white;
+
+}
+
+.main-subbody {
+  display: flex;
+  justify-items: center;          
+  margin: auto; 
+}
