@@ -11,9 +11,7 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px;
 }
 
 nav ul {
@@ -23,14 +21,16 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 20%;
+  display: flex;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  color: red;
 }
 
 nav ul li a {
   color: black;
   text-decoration: none;
-  padding: 5px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 nav ul li a:hover {
@@ -40,33 +40,56 @@ nav ul li a:hover {
 .sag-image {
   width: 10%;
   height: auto;
-  display: flex;
 }
 
 .quote-button {
   background-color: #D0B02D;
   color: black;
-  padding: 10px;
+  padding: 20px;
   border: none;
   font-size: 20px;
-  padding: 20px;
   margin: 20px;
   border-radius: 55px;
-  width: 7%;
+  width: 130px;
   cursor: pointer;
 }
 
 .main-body {
   display: flex;
-  background-image: url(Images/pic1.png);
   background-repeat: no-repeat;
-  height: 700px;
   width: auto;
   color: white;
+  height: 100%;
 }
 
 .main-subbody {
   display: flex;
+  flex-direction: column;
   justify-items: center;
+  position: relative;
+  padding: 10%;
+}
+
+.pic1 {
+  position: absolute;
+  width: 100%;
+  max-height: 80%;
+}
+
+.main-title {
+  font-size: 5rem;
+  font-weight: bold;
   margin: auto;
+}
+
+.main-text {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.freights {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 100px;
 }/*# sourceMappingURL=style.css.map */
