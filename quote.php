@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <nav>
+        <img class="sag-image" src="SAGSHIPPING.jpg" alt="SAGSHIPPING">
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="index.php">Contacts</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="index.php">CONTACTS</a></li>
         </ul>
+        <button class="quote-button">
+            <p>QUOTE</p>
+        </button>
     </nav>
 
     <body>
