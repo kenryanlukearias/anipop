@@ -133,6 +133,8 @@ nav ul li a:hover {
 
 //quote button SCSS
 .quote-button {
+  display: flex;
+  justify-content: center;
   background-color: $yellow;
   color: black;
   padding: 20px;
@@ -142,6 +144,7 @@ nav ul li a:hover {
   border-radius: 55px;
   width: 130px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .quote-button:hover {

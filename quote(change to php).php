@@ -7,16 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
+<nav>
         <img class="sag-image" src="SAGSHIPPING.jpg" alt="SAGSHIPPING">
         <ul>
             <li><a href="index.php">HOME</a></li>
             <li><a href="#">ABOUT US</a></li>
             <li><a href="quote(change to php).php">CONTACTS</a></li>
         </ul>
-        <button class="quote-button">
-            <p>QUOTE</p>
-        </button>
+        <a class="quote-button" href="quote(change to php).php">QUOTE</a>
     </nav>
 
     <div>

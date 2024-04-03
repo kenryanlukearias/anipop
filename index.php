@@ -14,9 +14,7 @@
             <li><a href="#">ABOUT US</a></li>
             <li><a href="quote(change to php).php">CONTACTS</a></li>
         </ul>
-        <button class="quote-button">
-            <p>QUOTE</p>
-        </button>
+        <a class="quote-button" href="quote(change to php).php">QUOTE</a>
     </nav>
 
 
