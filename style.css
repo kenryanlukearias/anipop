@@ -25,43 +25,54 @@ body {
 }
 
 .survey {
-  background-color: grey;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   height: auto;
+  width: 60%;
+  margin: auto;
 }
 
 .left-boxes {
-  background-color: red;
   display: flex;
   flex-direction: column;
 }
 
 .left-boxes input {
-  margin: 0.5em;
-  height: 300%;
+  padding: 5%;
+  height: 4vw;
+  margin: 3vh;
+  width: 31em;
 }
 
 .right-boxes {
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
 }
 
-textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
-  width: 100%;
+.right-boxes input {
+  padding: 5%;
+  height: 4vw;
+  margin: 3vh;
+  width: 31em;
+}
+
+.right-boxes textarea {
+  margin: 3vh;
+  padding: 32%;
 }
 
 .submit-button {
+  display: flex;
+  justify-content: center;
   cursor: pointer;
-  width: 100%;
+  width: 10%;
   border: none;
   background: #D0B02D;
   color: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
+  margin: auto;
+  padding: 15px;
   font-size: 20px;
+  color: black;
 }
 
 .submit-button:hover {

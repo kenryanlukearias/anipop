@@ -10,9 +10,9 @@
     <nav>
         <img class="sag-image" src="SAGSHIPPING.jpg" alt="SAGSHIPPING">
         <ul>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="index.php">CONTACTS</a></li>
+            <li><a href="index.php">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="quote(change to php).php">CONTACTS</a></li>
         </ul>
         <button class="quote-button">
             <p>QUOTE</p>
@@ -22,60 +22,38 @@
     <div>
 
 
-      <div class="contact">
+      <br><br><br><div class="contact">
         <p class="contact-h1">CONTACT FORM</p><br><br>
         <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis est et gravida tempus. Aliquam faucibus, orci id posuere sodales, orci nibh condimentum mauris, id ornare urna lacus at dolor.</p>
       </div><br><br><br>
 
 
 
-      <div class="survey">
+      <div>
         <form class="form" action="mail.php" method="post">
 
 
-        <div>
+        <div class="survey">
 
 
           <div class="left-boxes">
-            
               <input placeholder="Name" name="name" type="text" tabindex="1" autofocus>
-            
-            
+          
               <input placeholder="Email Address" name="email" type="email" tabindex="2">
-            
-            
+          
               <input placeholder="Phone number" type="text" name="number" tabindex="3">
             
             
           </div>
 
-
-
-
-
-
           <div class="right-boxes">
-            
-            
-            
+                                    
               <input placeholder="Subject" type="text" name="subject" tabindex="4">
-            
-
-            
-              <textarea name="message" placeholder="Enter query" tabindex="5"></textarea>
-            
-        
-  
+                    
+              <textarea name="message" placeholder="Enter query" tabindex="5"></textarea>          
           </div>
-
-
-
-          <button type="submit" name="send" class="submit-button">Submit Now</button>
-
-
-
-
         </div>
+        <button type="submit" name="send" class="submit-button">Submit</button>
           
             
         </form>
