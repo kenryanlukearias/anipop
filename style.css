@@ -9,6 +9,65 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.survey {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.left-boxes {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-boxes input {
+  margin: 0.5em;
+  height: 300%;
+}
+
+.right-boxes {
+  background-color: blue;
+}
+
+textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+  width: 100%;
+}
+
+.submit-button {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #D0B02D;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.submit-button:hover {
+  background-color: #AC9329;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -24,7 +83,6 @@ nav ul li {
   display: flex;
   margin-right: 5rem;
   margin-left: 5rem;
-  color: red;
 }
 
 nav ul li a {
@@ -52,6 +110,10 @@ nav ul li a:hover {
   border-radius: 55px;
   width: 130px;
   cursor: pointer;
+}
+
+.quote-button:hover {
+  background-color: #AC9329;
 }
 
 .main-body {

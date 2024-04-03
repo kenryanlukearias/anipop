@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP&display=swap);
 
 $yellow: #D0B02D;
+$yellow-hover: #AC9329;
 $navy: #1F2032;
 
 
@@ -12,67 +13,80 @@ $navy: #1F2032;
 
 body {
   font-family: "Montserrat", sans-serif;
-
+  
 }
 
 
-// .container {
-//   max-width: 400px;
-//   width: 100%;
-//   margin: 0 auto;
-//   position: relative;
-// }
 
-// #contact input {
-//   font: 400 12px/16px;
-//   width: 100%;
-//   border: 1px solid #CCC;
-//   background: #FFF;
-//   margin: 10 5px;
-//   padding: 10px;
-// }
+//SCSS for Email Automation
+.contact {
+  display: flex;
+  justify-content: center; //centers the text
+  flex-direction: column; //changes the direction of the texts
+  align-items: center; //centers the text
+  width: 50%;
+  margin: auto; //puts the text in the center of the page
+  text-align: center; //center aligns the text
+}
 
-// h1 {
-//   margin-bottom: 30px;
-//   font-size: 30px;
-// }
-
-// #contact {
-//   background: #F9F9F9;
-//   padding: 25px;
-//   margin: 50px 0;
-// }
+.contact-h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
 
 
-// fieldset {
-//   border: medium none !important;
-//   margin: 0 0 10px;
-//   min-width: 100%;
-//   padding: 0;
-//   width: 100%;
-// }
+.survey {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
 
-// textarea {
-//   height: 100px;
-//   max-width: 100%;
-//   resize: none;
-//   width: 100%;
-// }
 
-// button {
-//   cursor: pointer;
-//   width: 100%;
-//   border: none;
-//   background: rgb(17, 146, 60);
-//   color: #FFF;
-//   margin: 0 0 5px;
-//   padding: 10px;
-//   font-size: 20px;
-// }
+.left-boxes {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
 
-// button:hover {
-//   background-color: rgb(15, 95, 42);
-// }
+}
+
+.left-boxes input {
+  margin: 0.5em;
+  height: 300%;
+}
+
+.right-boxes {
+  background-color: blue;
+}
+
+
+
+
+textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+  width: 100%;
+}
+
+.submit-button {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: $yellow;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.submit-button:hover {
+  background-color: $yellow-hover;
+}
+
+
+
+
 
 
 // Navigation bar SCSS
@@ -91,7 +105,6 @@ nav ul li {
   display: flex;
   margin-right: 5rem;
   margin-left: 5rem;
-  color: red;
 }
 
 nav ul li a {
@@ -109,6 +122,8 @@ nav ul li a:hover {
   height: auto;
 }
 
+
+//quote button SCSS
 .quote-button {
   background-color: $yellow;
   color: black;
@@ -120,6 +135,13 @@ nav ul li a:hover {
   width: 130px;
   cursor: pointer;
 }
+
+.quote-button:hover {
+  background-color: $yellow-hover;
+}
+
+
+
 
 
 //main content SCSS

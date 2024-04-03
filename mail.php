@@ -40,7 +40,9 @@ if (isset($_POST["send"])) {
     " 
     <script> 
      alert('Message was sent successfully!');
-     document.location.href = 'index.php';
+     document.location.href = 'index.html'; 
     </script>
     ";
+
+    //change index.html to index.php
 }
