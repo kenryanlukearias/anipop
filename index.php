@@ -42,5 +42,8 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis est et gravida tempus. Aliquam faucibus, orci id posuere sodales, orci nibh condimentum mauris, id ornare urna lacus at dolor.</p>
         </div>
     </div>
+
+    <footer>
+    
 </body>
 </html>
