@@ -197,3 +197,96 @@ nav ul li a:hover {
   width: 100%;
   padding: 100px;
 }
+
+
+//footer SCSS
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  //background-color: $navy;
+  color: black;
+  padding: 20px;
+  height: auto;
+  
+}
+
+
+.sag-logo{
+  width: auto;
+  height: 80%;
+  border-right: black 1px solid;
+}
+
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 50%;
+}
+
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  ul {
+    list-style: none; // remove bullet points
+  }
+    .contact-image {
+    width: 50%;
+    height: auto;
+    color: black;
+    padding: 20px;}
+  }
+
+  
+.contactdeets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none; // remove bullet points
+}
+
+.Social-Media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  list-style: none; // remove bullet points
+}
+.Social-Media img {
+  width: 50%;
+  height: auto;
+  color: black;
+  padding: 20px;
+}
+
+.rawr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  list-style: none; // remove bullet points
+}
+
+
+.footer-text {
+  font-size: 1.5rem;
+  text-align: center; // Add this line to center align the text
+  color: black;
+}
+
+li {
+  list-style: none; // remove bullet points
+  padding: 30px;
+}
+
+li a {
+  color: black;
+}
