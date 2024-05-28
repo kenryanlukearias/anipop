@@ -131,25 +131,20 @@ nav ul li a:hover {
 }
 
 .main-body {
-  display: flex;
-  background-repeat: no-repeat;
-  width: auto;
+  background-color: red;
   color: white;
-  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/pic1.png");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .main-subbody {
   display: flex;
   flex-direction: column;
   justify-items: center;
-  position: relative;
   padding: 10%;
-}
-
-.pic1 {
-  position: absolute;
-  width: 100%;
-  max-height: 80%;
 }
 
 .main-title {
@@ -165,67 +160,101 @@ nav ul li a:hover {
 
 .freights {
   display: flex;
-  height: 100%;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 100
+}
+
+
+
+.freights-box {
+  background-color: #1F2032;
+  margin: 30px;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  width: 15%;
+  height: 325px;
+}
+
+.freights-box img {
+  margin-bottom: 10px;
+}
+
+.sag-brief {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
   padding: 100px;
+  border-bottom: black 1px solid;
+}
+
+.sag-brief img {
+  width: 80%;
+}
+
+.sag-brief h1 {
+  font-size: 2.5rem;
+  padding: 20px;
+  text-align: center;
+}
+
+.sag-brief p {
+  font-size: 1.5rem;
+  padding: 20px;
 }
 
 footer {
   display: flex;
-  justify-content: space-evenly;
   color: black;
-  padding: 20px;
+  justify-content: space-evenly;
+  padding: 1px;
   height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .sag-logo {
-  width: auto;
-  height: 50%;
   border-right: black 1px solid;
+  width: auto;
+  height: auto;
+  margin: 50px;
 }
 
-.details {
+.Details {
   display: flex;
   flex-direction: column;
+  width: auto;
   justify-content: center;
   align-items: center;
-  width: auto;
-  margin: auto;
+  font-size: 130%;
 }
 
-.details ul li {
+.Details ul li {
   list-style: none;
-  padding: 10px;
+  padding: 1.5vh;
 }
 
 .Contact {
   display: flex;
-  flex-direction: column;
-  height: auto;
-  background-color: red;
   padding-right: 10px;
-}
-.Contact ul {
-  list-style: none;
-}
-.Contact .contact-image {
-  width: 50%;
-  height: auto;
-  color: black;
-  padding: 20px;
 }
 
 .contactdeets {
   display: flex;
-  flex-direction: column;
-  list-style: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.contactdeets img {
-  width: 10%;
-  height: 10%;
-  color: black;
-  flex-direction: column;
+.deets img {
+  width: 15%;
+}
+
+.spacer-deets {
+  margin: 20px;
 }
 
 .Social-Media {
@@ -249,12 +278,6 @@ h3 {
   font-size: 2rem;
   color: black;
   padding-left: 30px;
-}
-
-.sag-logo {
-  width: 50%;
-  height: auto;
-  margin: 50px;
 }
 
 .rawr {
