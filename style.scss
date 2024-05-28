@@ -213,7 +213,7 @@ footer {
 
 .sag-logo{
   width: auto;
-  height: 80%;
+  height: 50%;
   border-right: black 1px solid;
 }
 
@@ -223,17 +223,21 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  margin: 50%;
+  width: auto;
+  margin: auto;
+}
+.details ul li{
+  list-style: none; // remove bullet points
+  padding: 10px;
 }
 
 
 .Contact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+  height: auto;
+  background-color: red;
+  padding-right: 10px;
   ul {
     list-style: none; // remove bullet points
   }
@@ -248,27 +252,46 @@ footer {
 .contactdeets {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   list-style: none; // remove bullet points
+}
+.contactdeets img {
+  width: 10%;
+  height: 10%;
+  color: black;
+  flex-direction: column;
 }
 
 .Social-Media {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 20%;
   list-style: none; // remove bullet points
+  flex-direction: column;
+  padding: 20px;
 }
 .Social-Media img {
-  width: 50%;
+  width: 200%;
   height: auto;
   color: black;
   padding: 20px;
-}
+  
+} //footer img SCSS
 
+h3 {
+  font-size: 2rem;
+  color: black;
+  padding-left: 30px;
+}
+.sag-logo{
+  width: 50%;
+  height: auto;
+  margin: 50px;
+  
+}
 .rawr {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 50%;
