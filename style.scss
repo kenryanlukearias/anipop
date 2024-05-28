@@ -359,30 +359,42 @@ nav ul li a:hover {
 
 
 
-
-.sag-image {
-  width: 10%;
-  height: auto;
+.home {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  padding: 10vh;
+}
+.sag-image {
+  width: 10%;
+  height: auto;
   margin: 50px;
+}
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 10vh;
 }
 
 .about {
-  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
   margin: auto;
   text-align: center;
+  padding: 10vh;
 }
 .about h1 {
-  font-size: 2.5rem;
+  font-size: 1rem;
   padding: 20px;
   text-align: center;
 }
 .about p {
   font-size: 1.5rem;
-  padding: 20px;
+  text-align: center;
 }
 
 // .spacer {
