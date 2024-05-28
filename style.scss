@@ -360,11 +360,21 @@ nav ul li a:hover {
 
 
 
-// .sag-image {
-//   width: 10%;
-//   height: auto;
-// }
+.sag-image {
+  width: 10%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
 
+.about {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
 .about h1 {
   font-size: 2.5rem;
   padding: 20px;
