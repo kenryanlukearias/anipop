@@ -157,8 +157,8 @@ nav ul li a:hover {
 
 //main content SCSS
 .main-body {
-  background-color: red;
   color: white;
+  height: 80vh;
   background-repeat: no-repeat;
   background-image: url("../images/pic1.png");
   background-size: 100% auto;
@@ -225,7 +225,36 @@ nav ul li a:hover {
   width: auto;
   padding: 100px;
   border-bottom: black 1px solid;
-  
+}
+
+
+
+
+
+//delivery time, storage and packaging etc...
+.sag-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  // background-color: red;
+  font-size: 150%;
+  padding: 50px;
+}
+
+.desc-direction div {
+  margin: 20px;
+}
+
+.desc-direction div img {
+  width: 90px;
+}
+
+.desc-p {
+  width: 60%;
+  margin: auto;
 }
 
 .sag-brief img {
@@ -242,6 +271,222 @@ nav ul li a:hover {
   font-size: 1.5rem;
   padding: 20px;
 }
+
+.desc-headers {
+  font-weight: 550;
+}
+
+
+
+
+
+
+//Home page contact us tab
+.home-contact {
+  background-color: $yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10vh;
+}
+
+.home-contact-h {
+  font-size: 2.5rem;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.home-contact-p {
+  font-size: 1.5rem;
+  padding: 20px;
+  text-align: center;
+  width: 40%;
+
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  background-color: $navy;
+  color: white;
+  padding: 20px;
+  border: none;
+  font-size: 170%;
+  font-weight: 600;
+  margin: 20px;
+  border-radius: 55px;
+  width: 20vh;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .sag-image {
+//   width: 10%;
+//   height: auto;
+// }
+
+.about h1 {
+  font-size: 2.5rem;
+  padding: 20px;
+  text-align: center;
+}
+.about p {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+// .spacer {
+//   margin: 20px;
+// }
+
+
+// .mission {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .vision {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .goals {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+
+// .choose {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .choose h1 { 
+//   font-size: 2.5rem;
+//   padding: 20px;
+//   text-align: center;
+
+// .choose1 {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .intransit {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .Time Management {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .Movers {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .choose2 {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .Packing {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .Services {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+
+
 
 
 

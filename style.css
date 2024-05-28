@@ -131,8 +131,8 @@ nav ul li a:hover {
 }
 
 .main-body {
-  background-color: red;
   color: white;
+  height: 80vh;
   background-repeat: no-repeat;
   background-image: url("../images/pic1.png");
   background-size: 100% auto;
@@ -163,10 +163,8 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   width: auto;
-  padding: 100
+  padding: 100px;
 }
-
-
 
 .freights-box {
   background-color: #1F2032;
@@ -191,6 +189,30 @@ nav ul li a:hover {
   border-bottom: black 1px solid;
 }
 
+.sag-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  font-size: 150%;
+  padding: 50px;
+}
+
+.desc-direction div {
+  margin: 20px;
+}
+
+.desc-direction div img {
+  width: 90px;
+}
+
+.desc-p {
+  width: 60%;
+  margin: auto;
+}
+
 .sag-brief img {
   width: 80%;
 }
@@ -202,6 +224,60 @@ nav ul li a:hover {
 }
 
 .sag-brief p {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.desc-headers {
+  font-weight: 550;
+}
+
+.home-contact {
+  background-color: #D0B02D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10vh;
+}
+
+.home-contact-h {
+  font-size: 2.5rem;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.home-contact-p {
+  font-size: 1.5rem;
+  padding: 20px;
+  text-align: center;
+  width: 40%;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2032;
+  color: white;
+  padding: 20px;
+  border: none;
+  font-size: 170%;
+  font-weight: 600;
+  margin: 20px;
+  border-radius: 55px;
+  width: 20vh;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  padding: 20px;
+  text-align: center;
+}
+
+.about p {
   font-size: 1.5rem;
   padding: 20px;
 }
