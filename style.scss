@@ -360,34 +360,50 @@ nav ul li a:hover {
 
 
 
-.sag-image {
-  width: 10%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px;
-}
+// .sag-image {
+//   width: 10%;
+//   height: auto;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin: 50px;
+// }
+
+// .sag-who {
+//   display: flex;
+//   flex-direction: row;
+// }
 
 .about {
   display: flex;
-  width: 50%;
+  flex-direction: row;
   margin: auto;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
+
+.about img {
+  width: 70%;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
 .about h1 {
   font-size: 2.5rem;
   padding: 20px;
-  text-align: center;
 }
+
 .about p {
   font-size: 1.5rem;
   padding: 20px;
+  width: 90%;
 }
-
-// .spacer {
-//   margin: 20px;
-// }
 
 
 // .mission {
@@ -595,8 +611,15 @@ footer {
 
 .spacer-deets {
   margin: 20px;
+  display: flex;
 }
 
+.spacer-deets p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9%;
+}
 
 
 

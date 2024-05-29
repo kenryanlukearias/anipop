@@ -271,15 +271,34 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
+.about {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.about img {
+  width: 70%;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .about h1 {
   font-size: 2.5rem;
   padding: 20px;
-  text-align: center;
 }
 
 .about p {
   font-size: 1.5rem;
   padding: 20px;
+  width: 90%;
 }
 
 footer {
@@ -331,6 +350,14 @@ footer {
 
 .spacer-deets {
   margin: 20px;
+  display: flex;
+}
+
+.spacer-deets p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9%;
 }
 
 .Social-Media {
