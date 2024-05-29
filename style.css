@@ -271,15 +271,103 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
+.about {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  font-size: 140%;
+  padding: 3vh;
+}
+
+.about img {
+  width: 100%;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .about h1 {
   font-size: 2.5rem;
   padding: 20px;
-  text-align: center;
 }
 
 .about p {
   font-size: 1.5rem;
   padding: 20px;
+  width: 90%;
+}
+
+.mvg-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 10vh;
+  background-color: #D0B02D;
+  font-size: 140%;
+}
+
+.mvg-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+}
+
+.mvg-align div {
+  margin: 0.5vh;
+}
+
+.mvg-tab img {
+  width: 30%;
+  display: flex;
+  align-self: flex-start;
+  margin: 0.5vh;
+}
+
+.wcs {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+  font-size: 130%;
+}
+
+.wcs h1 {
+  margin: auto;
+}
+
+.wcs-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10vh;
+}
+
+.para-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para-align img {
+  width: 10%;
+}
+
+.para-align div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
 }
 
 footer {
@@ -331,6 +419,14 @@ footer {
 
 .spacer-deets {
   margin: 20px;
+  display: flex;
+}
+
+.spacer-deets p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9%;
 }
 
 .Social-Media {

@@ -359,6 +359,7 @@ nav ul li a:hover {
 
 
 
+<<<<<<< HEAD
 .home {
   display: flex;
   justify-content: center;
@@ -386,132 +387,130 @@ nav ul li a:hover {
   margin: auto;
   text-align: center;
   padding: 10vh;
+=======
+//about tab
+
+.about {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  font-size: 140%;
+  padding: 3vh;
+>>>>>>> ccb5fa740997ff964a3fbf8e3a526f1d74a1096b
 }
+
+.about img {
+  width: 100%;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
 .about h1 {
   font-size: 1rem;
   padding: 20px;
-  text-align: center;
 }
+
 .about p {
   font-size: 1.5rem;
+<<<<<<< HEAD
   text-align: center;
+=======
+  padding: 20px;
+  width: 90%;
+>>>>>>> ccb5fa740997ff964a3fbf8e3a526f1d74a1096b
 }
 
-// .spacer {
-//   margin: 20px;
-// }
 
 
-// .mission {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 50%;
-//   margin: auto;
-//   text-align: center;
-// }
-
-// .vision {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 50%;
-//   margin: auto;
-//   text-align: center;
-// }
-
-// .goals {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 50%;
-//   margin: auto;
-//   text-align: center;
-// }
 
 
-// .choose {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 50%;
-//   margin: auto;
-//   text-align: center;
-// }
+//mvg tab
+.mvg-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 10vh;
+  background-color: $yellow;
+  font-size: 140%;
+}
 
-// .choose h1 { 
-//   font-size: 2.5rem;
-//   padding: 20px;
-//   text-align: center;
+.mvg-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  
+}
 
-// .choose1 {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 50%;
-//   margin: auto;
-//   text-align: center;
-// }
+.mvg-align div {
+  margin: 0.5vh;
+}
 
-// .intransit {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 50%;
-//   margin: auto;
-//   text-align: center;
-// }
-
-// .Time Management {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 50%;
-//   margin: auto;
-//   text-align: center;
-// }
-
-// .Movers {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 50%;
-//   margin: auto;
-//   text-align: center;
-// }
-
-// .choose2 {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 50%;
-//   margin: auto;
-//   text-align: center;
-// }
-
-// .Packing {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 50%;
-//   margin: auto;
-//   text-align: center;
-// }
-
-// .Services {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 50%;
-//   margin: auto;
-//   text-align: center;
-// }
+.mvg-tab img {
+  width: 30%;
+  display: flex;
+  align-self: flex-start;
+  margin: 0.5vh;
+}
 
 
 
 
 
+//WHY CHOOSE SAG SHIPPING tab
 
+
+.wcs {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+  font-size: 130%;
+  
+}
+
+
+.wcs h1 {
+  margin: auto;
+}
+
+.wcs-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10vh;
+
+}
+
+
+.para-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para-align img {
+  width: 10%;
+}
+
+.para-align div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+}
 
 
 
@@ -607,8 +606,15 @@ footer {
 
 .spacer-deets {
   margin: 20px;
+  display: flex;
 }
 
+.spacer-deets p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9%;
+}
 
 
 
