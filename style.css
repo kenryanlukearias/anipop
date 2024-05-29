@@ -277,11 +277,13 @@ nav ul li a:hover {
   margin: auto;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 70%;
+  font-size: 140%;
+  padding: 3vh;
 }
 
 .about img {
-  width: 70%;
+  width: 100%;
 }
 
 .about-text {
@@ -308,6 +310,7 @@ nav ul li a:hover {
   width: auto;
   padding: 10vh;
   background-color: #D0B02D;
+  font-size: 140%;
 }
 
 .mvg-align {
@@ -327,6 +330,44 @@ nav ul li a:hover {
   display: flex;
   align-self: flex-start;
   margin: 0.5vh;
+}
+
+.wcs {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+  font-size: 130%;
+}
+
+.wcs h1 {
+  margin: auto;
+}
+
+.wcs-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10vh;
+}
+
+.para-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para-align img {
+  width: 10%;
+}
+
+.para-align div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
 }
 
 footer {
