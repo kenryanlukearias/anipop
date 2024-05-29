@@ -359,35 +359,6 @@ nav ul li a:hover {
 
 
 
-<<<<<<< HEAD
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  padding: 10vh;
-}
-.sag-image {
-  width: 10%;
-  height: auto;
-  margin: 50px;
-}
-.containers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  padding: 10vh;
-}
-
-.about {
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  padding: 10vh;
-=======
 //about tab
 
 .about {
@@ -399,7 +370,6 @@ nav ul li a:hover {
   width: 70%;
   font-size: 140%;
   padding: 3vh;
->>>>>>> ccb5fa740997ff964a3fbf8e3a526f1d74a1096b
 }
 
 .about img {
@@ -420,12 +390,8 @@ nav ul li a:hover {
 
 .about p {
   font-size: 1.5rem;
-<<<<<<< HEAD
-  text-align: center;
-=======
   padding: 20px;
   width: 90%;
->>>>>>> ccb5fa740997ff964a3fbf8e3a526f1d74a1096b
 }
 
 
@@ -669,4 +635,109 @@ li {
 
 li a {
   color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+    margin: 0px;
+    padding-left: 60px;
+  }
+
+
+  .about img {
+    width: 100%;
+    margin-bottom: 5vh;
+    margin-left: 0px;
+    margin-right: auto;
+    display: block;
+  }
+
+  .about-text {
+    width: 110%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:justify;
+    text-overflow: ellipsis;
+    }
+
+  .about h1 {
+    font-size: 2rem;
+    padding: 10px; 
+  }
+
+  .about p {
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 100%;
+  }
+  .mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10vh;
+    background-color: $yellow;
+    font-size: 140%;
+  }
+  .mvg-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .mvg-align p {
+    font-size: 5 rem;
+    padding: 10px;
+    padding-right: 100px;
+    align-items: center;
+  }
+  .mvg-align img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 10vh;
+    background-color: $yellow;
+    font-size: 140%;
+  }
+  .wcs {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh;
+    font-size: 130%;
+  }
+  .wcs h1 {
+    margin: auto;
+    font-size: larger;
+  }
 }

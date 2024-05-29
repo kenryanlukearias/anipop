@@ -293,7 +293,7 @@ nav ul li a:hover {
 }
 
 .about h1 {
-  font-size: 2.5rem;
+  font-size: 1rem;
   padding: 20px;
 }
 
@@ -474,4 +474,82 @@ li {
 
 li a {
   color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+    margin: 0px;
+    padding-left: 60px;
+  }
+  .about img {
+    width: 100%;
+    margin-bottom: 5vh;
+    margin-left: 0px;
+    margin-right: auto;
+    display: block;
+  }
+  .about-text {
+    width: 110%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-overflow: ellipsis;
+  }
+  .about h1 {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .about p {
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 100%;
+  }
+  .mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10vh;
+    background-color: #D0B02D;
+    font-size: 140%;
+  }
+  .mvg-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+  }
+  .mvg-align p {
+    font-size: 5 rem;
+    padding: 10px;
+    padding-right: 100px;
+    align-items: center;
+  }
+  .mvg-align img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 10vh;
+    background-color: #D0B02D;
+    font-size: 140%;
+  }
+  .wcs {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh;
+    font-size: 130%;
+  }
+  .wcs h1 {
+    margin: auto;
+    font-size: larger;
+  }
 }/*# sourceMappingURL=style.css.map */
