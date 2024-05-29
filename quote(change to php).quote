@@ -26,7 +26,7 @@
       </div><br><br><br>
 
 
-
+      <?php
       <div>
         <form class="form" action="mail.php" method="post">
 
@@ -56,6 +56,8 @@
             
         </form>
       </div>
+      ?>
+      
     </div>
 
 
