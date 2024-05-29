@@ -301,6 +301,34 @@ nav ul li a:hover {
   width: 90%;
 }
 
+.mvg-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 10vh;
+  background-color: #D0B02D;
+}
+
+.mvg-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+}
+
+.mvg-align div {
+  margin: 0.5vh;
+}
+
+.mvg-tab img {
+  width: 30%;
+  display: flex;
+  align-self: flex-start;
+  margin: 0.5vh;
+}
+
 footer {
   display: flex;
   color: black;
