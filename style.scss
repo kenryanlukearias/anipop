@@ -751,18 +751,6 @@ li a {
 }
 
 @media (max-width: 480px) {
-  .nav ul {
-    flex-direction: column;
-  } 
-
-  .nav ul li {
-    margin: 1rem 0;
-  }
-
-  .nav ul li a {
-    font-size: 15px;
-  }
-
   .main-title {
     font-size: 2rem;
   }
@@ -793,7 +781,7 @@ li a {
   }
 
   .quote-button {
-    width: 60px;
+    width: 100px;
     padding: 5px;
   }
 }
