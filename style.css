@@ -550,6 +550,34 @@ li a {
   }
   .wcs h1 {
     margin: auto;
-    font-size: larger;
+    font-size: 40px;
+  }
+  .wcs-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+  }
+  .para-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .para-align img {
+    width: 40%;
+    padding-bottom: 3vh;
+    padding-top: 5vh;
+  }
+  .para-align h4 {
+    font-size: 2rem;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .para-align p {
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 90%;
+    text-align: start;
   }
 }/*# sourceMappingURL=style.css.map */
