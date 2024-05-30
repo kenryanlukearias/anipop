@@ -359,7 +359,20 @@ nav ul li a:hover {
 
 
 
-//about tab
+
+// .sag-image {
+//   width: 10%;
+//   height: auto;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin: 50px;
+// }
+
+// .sag-who {
+//   display: flex;
+//   flex-direction: row;
+// }
 
 .about {
   display: flex;
@@ -367,13 +380,11 @@ nav ul li a:hover {
   margin: auto;
   justify-content: center;
   align-items: center;
-  width: 70%;
-  font-size: 140%;
-  padding: 3vh;
+  width: 50%;
 }
 
 .about img {
-  width: 100%;
+  width: 70%;
 }
 
 .about-text {
@@ -395,99 +406,189 @@ nav ul li a:hover {
 }
 
 
+// .mission {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .vision {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .goals {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+
+// .choose {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .choose h1 { 
+//   font-size: 2.5rem;
+//   padding: 20px;
+//   text-align: center;
+
+// .choose1 {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .intransit {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .Time Management {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .Movers {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .choose2 {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .Packing {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
+
+// .Services {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+// }
 
 
 
-//mvg tab
-.mvg-tab {
+
+
+
+
+
+
+
+//contact page 
+
+.contact {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  padding: 10vh;
-  background-color: $yellow;
-  font-size: 140%;
+  justify-content: center; //centers the text
+  flex-direction: column; //changes the direction of the texts
+  align-items: center; //centers the text
+  width: 50%;
+  margin: auto; //puts the text in the center of the page
+  text-align: center; //center aligns the text
+
 }
 
-.mvg-align {
+.contact p {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.contact-details {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
-  align-items: center;
-  width: 60%;
-  
+  width: 70%;
+  margin: auto;
+  font-size: 150%;
+  height: 50vh;
+  // background-color: red;
 }
 
-.mvg-align div {
-  margin: 0.5vh;
+.contact-divs {
+  display: flex;
 }
 
-.mvg-tab img {
-  width: 30%;
+.contact-details img{
+  width: 5vh;
   display: flex;
   align-self: flex-start;
-  margin: 0.5vh;
 }
 
 
-
-
-
-//WHY CHOOSE SAG SHIPPING tab
-
-
-.wcs {
+.contact-box {
   display: flex;
   flex-direction: column;
-  margin: 10vh;
-  font-size: 130%;
-  
+  width: auto;
+  margin: 0.8vh;
 }
 
-
-.wcs h1 {
-  margin: auto;
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  list-style: none; // remove bullet points
+  flex-direction: column;
+  padding: 20px;
 }
 
-.wcs-one {
+.social-media p {
+  font-weight: 550;
+}
+
+.social-media ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 10vh;
-
-}
-
-
-.para-align {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.para-align img {
-  width: 10%;
-}
-
-.para-align div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 50%;
-  text-align: center;
+  list-style: none;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -635,4 +736,114 @@ li {
 
 li a {
   color: black;
+}
+
+
+// Responsive Styles
+@media (max-width: 1200px) {
+  .contact, .survey, .sag-desc, .home-contact-p, .desc-p, .footer-text {
+    width: 80%;
+  }
+
+  .freights-box, .freights, .sag-brief, .sag-desc {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .freights-box, .sag-brief, .sag-desc {
+    width: 90%;
+  }
+
+  .freights-box {
+    height: auto;
+  }
+
+  .quote-button {
+    width: 100px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 1rem 0;
+  }
+
+  nav ul li a {
+    font-size: 25px;
+  }
+
+  .main-title {
+    font-size: 3rem;
+  }
+
+  .main-text {
+    font-size: 1.5rem;
+  }
+
+  .contact, .survey, .sag-desc, .home-contact-p, .desc-p, .footer-text {
+    width: 100%;
+  }
+
+  .sag-image {
+    width: 20%;
+  }
+
+  .freights-box, .freights, .sag-brief, .sag-desc {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .freights-box, .sag-brief, .sag-desc {
+    width: 100%;
+  }
+
+  .freights-box {
+    height: auto;
+  }
+
+  .quote-button {
+    width: 80px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .main-text {
+    font-size: 1rem;
+  }
+
+  .contact, .survey, .sag-desc, .home-contact-p, .desc-p, .footer-text {
+    width: 100%;
+  }
+
+  .sag-image {
+    width: 30%;
+  }
+
+  .freights-box, .freights, .sag-brief, .sag-desc {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .freights-box, .sag-brief, .sag-desc {
+    width: 100%;
+  }
+
+  .freights-box {
+    height: auto;
+  }
+
+  .quote-button {
+    width: 100px;
+    padding: 5px;
+  }
 }
