@@ -58,7 +58,11 @@ body {
 
 .right-boxes textarea {
   margin: 3vh;
-  padding: 32%;
+  width: 43.5vh;
+  height: 43.5vh;
+  padding: 1vh;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .submit-button {
@@ -163,17 +167,17 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   width: auto;
-  padding: 100px;
+  padding: 10vh;
 }
 
 .freights-box {
   background-color: #1F2032;
-  margin: 30px;
+  margin: 3vh;
   color: white;
-  padding: 50px;
+  padding: 30px;
   text-align: center;
   width: 15%;
-  height: 325px;
+  height: 35vh;
 }
 
 .freights-box img {
@@ -382,7 +386,8 @@ nav ul li a:hover {
   margin: auto;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  padding: 3vh;
+  width: 70%;
 }
 
 .about img {
