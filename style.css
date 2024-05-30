@@ -692,13 +692,14 @@ li a {
   }
   .about img {
     width: 100%;
-    margin-bottom: 5vh;
+    margin-bottom: 8px;
     margin-left: 0px;
+    padding-left: 5px;
     margin-right: auto;
     display: block;
   }
   .about-text {
-    width: 110%;
+    width: 120%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -713,8 +714,9 @@ li a {
   .about p {
     font-size: 1.2rem;
     padding: 10px;
-    width: 100%;
+    width: 90%;
     padding-bottom: 20px;
+    padding-left: 10px;
   }
   .mission {
     display: flex;
@@ -744,10 +746,11 @@ li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px;
-    padding-left: 140px;
-    width: 60%;
+    margin: 110px;
+    padding-left: 100px;
+    width: 45%;
     background-color: #D0B02D;
+    margin-bottom: 5px;
   }
   .wcs {
     display: flex;
@@ -759,7 +762,7 @@ li a {
     margin: 0px;
     font-size: 40px;
     padding-top: 10px;
-    padding-left: 50px;
+    padding-left: 80px;
   }
   .wcs-one {
     display: flex;
@@ -789,28 +792,5 @@ li a {
     padding: 10px;
     width: 90%;
     text-align: start;
-  }
-  .about h1 {
-    font-size: 1rem;
-  }
-  .about p {
-    font-size: 1rem;
-    padding: 10px;
-    width: 120%;
-  }
-  .mvg-tab {
-    padding: 1rem;
-    font-size: 1rem;
-  }
-  .contact {
-    font-size: 1rem;
-    margin-top: 10px;
-  }
-  .contact p {
-    font-size: 15px;
-    margin-bottom: 2rem;
-  }
-  .contact-details {
-    width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
