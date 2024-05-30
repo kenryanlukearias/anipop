@@ -328,84 +328,13 @@ nav ul li a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//about tab
-
-.about {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  font-size: 140%;
-  padding: 3vh;
-}
-
-.about img {
-  width: 100%;
-}
-
-.about-text {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-
-.about h1 {
-  font-size: 1rem;
-  padding: 20px;
-}
-
-.about p {
-  font-size: 1.5rem;
-  padding: 20px;
-  width: 90%;
-}
-
-
-
-
-
-//mvg tab
 .mvg-tab {
   display: flex;
   justify-content: center;
   align-items: center;
   width: auto;
   padding: 10vh;
-  background-color: $yellow;
+  background-color: #D0B02D;
   font-size: 140%;
 }
 
@@ -415,7 +344,6 @@ nav ul li a:hover {
   justify-content: space-evenly;
   align-items: center;
   width: 60%;
-  
 }
 
 .mvg-align div {
@@ -429,6 +357,43 @@ nav ul li a:hover {
   margin: 0.5vh;
 }
 
+.wcs {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+  font-size: 130%;
+}
+
+.wcs h1 {
+  margin: auto;
+}
+
+.wcs-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10vh;
+}
+
+.para-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para-align img {
+  width: 10%;
+}
+
+.para-align div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+}
 
 
 
@@ -488,6 +453,131 @@ nav ul li a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.about img {
+  width: 70%;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.about h1 {
+  font-size: 2.5rem;
+  padding: 20px;
+}
+
+.about p {
+  font-size: 1.5rem;
+  padding: 20px;
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+//contact page 
+
+.contact {
+  display: flex;
+  justify-content: center; //centers the text
+  flex-direction: column; //changes the direction of the texts
+  align-items: center; //centers the text
+  width: 50%;
+  margin: auto; //puts the text in the center of the page
+  text-align: center; //center aligns the text
+
+}
+
+.contact p {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+  font-size: 150%;
+  height: 50vh;
+  // background-color: red;
+}
+
+.contact-divs {
+  display: flex;
+}
+
+.contact-details img{
+  width: 5vh;
+  display: flex;
+  align-self: flex-start;
+}
+
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 0.8vh;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  list-style: none; // remove bullet points
+  flex-direction: column;
+  padding: 20px;
+}
+
+.social-media p {
+  font-weight: 550;
+}
+
+.social-media ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  list-style: none;
+}
 
 
 
@@ -638,104 +728,17 @@ li a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 767px) {
-
-  .about {
-    flex-direction: column;
-    align-items: center;
-    padding: 10vh;
-    margin: 0px;
-    padding-left: 60px;
-  }
-
-
-  .about img {
-    width: 100%;
-    margin-bottom: 5vh;
-    margin-left: 0px;
-    margin-right: auto;
-    display: block;
-  }
-
-  .about-text {
-    width: 110%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align:justify;
-    text-overflow: ellipsis;
-    }
-
-  .about h1 {
-    font-size: 2rem;
-    padding: 10px; 
-  }
-
-  .about p {
-    font-size: 1.2rem;
-    padding: 10px;
-    width: 100%;
-  }
-  .mission {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 10vh;
-    background-color: $yellow;
-    font-size: 140%;
-  }
-  .mvg-align {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: justify;
-    width: 100%;
-  }
-
-  .mvg-align p {
-    font-size: 5 rem;
-    padding: 10px;
-    padding-right: 100px;
-    align-items: center;
-  }
-  .mvg-align img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+// Responsive Styles
+@media (max-width: 1200px) {
+  .contact, .survey, .sag-desc, .home-contact-p, .desc-p, .footer-text {
     width: 80%;
-    padding: 10vh;
-    background-color: $yellow;
-    font-size: 140%;
   }
-  .wcs {
-    display: flex;
+
+  .freights-box, .freights, .sag-brief, .sag-desc {
     flex-direction: column;
-    margin: 10vh;
-    font-size: 130%;
+    padding: 50px;
   }
+<<<<<<< HEAD
   .wcs h1 {
     margin: auto;
     font-size: 40px;
@@ -767,5 +770,103 @@ li a {
     padding: 10px;
     width: 90%;
     text-align: start;
+=======
+
+  .freights-box, .sag-brief, .sag-desc {
+    width: 90%;
+>>>>>>> e63ef01a628ef284e48b804fcdf4cf3a065912d5
+  }
+
+  .freights-box {
+    height: auto;
+  }
+
+  .quote-button {
+    width: 100px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 1rem 0;
+  }
+
+  nav ul li a {
+    font-size: 25px;
+  }
+
+  .main-title {
+    font-size: 3rem;
+  }
+
+  .main-text {
+    font-size: 1.5rem;
+  }
+
+  .contact, .survey, .sag-desc, .home-contact-p, .desc-p, .footer-text {
+    width: 100%;
+  }
+
+  .sag-image {
+    width: 20%;
+  }
+
+  .freights-box, .freights, .sag-brief, .sag-desc {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .freights-box, .sag-brief, .sag-desc {
+    width: 100%;
+  }
+
+  .freights-box {
+    height: auto;
+  }
+
+  .quote-button {
+    width: 80px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .main-text {
+    font-size: 1rem;
+  }
+
+  .contact, .survey, .sag-desc, .home-contact-p, .desc-p, .footer-text {
+    width: 100%;
+  }
+
+  .sag-image {
+    width: 30%;
+  }
+
+  .freights-box, .freights, .sag-brief, .sag-desc {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .freights-box, .sag-brief, .sag-desc {
+    width: 100%;
+  }
+
+  .freights-box {
+    height: auto;
+  }
+
+  .quote-button {
+    width: 100px;
+    padding: 5px;
   }
 }
