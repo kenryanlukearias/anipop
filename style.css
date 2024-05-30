@@ -301,74 +301,6 @@ nav ul li a:hover {
   width: 90%;
 }
 
-<<<<<<< HEAD
-.mvg-tab {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  padding: 10vh;
-  background-color: #D0B02D;
-  font-size: 140%;
-}
-
-.mvg-align {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 60%;
-}
-
-.mvg-align div {
-  margin: 0.5vh;
-}
-
-.mvg-tab img {
-  width: 30%;
-  display: flex;
-  align-self: flex-start;
-  margin: 0.5vh;
-}
-
-.wcs {
-  display: flex;
-  flex-direction: column;
-  margin: 10vh;
-  font-size: 130%;
-}
-
-.wcs h1 {
-  margin: auto;
-}
-
-.wcs-one {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 10vh;
-}
-
-.para-align {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.para-align img {
-  width: 10%;
-}
-
-.para-align div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  text-align: center;
-}
-
 .contact {
   display: flex;
   justify-content: center;
@@ -434,8 +366,6 @@ nav ul li a:hover {
   list-style: none;
 }
 
-=======
->>>>>>> 3a9962b3585f60336cfadcc3decfd2c1fec0767d
 footer {
   display: flex;
   color: black;
