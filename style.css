@@ -585,9 +585,6 @@ li a {
     flex-direction: column;
     padding: 50px;
   }
-  .freights-box, .sag-brief, .sag-desc {
-    width: 90%;
-  }
   .freights-box {
     height: auto;
   }
@@ -659,5 +656,115 @@ li a {
   .quote-button {
     width: 100px;
     padding: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding-left: 60px;
+    display: flex;
+    width: 80%;
+  }
+  .about img {
+    width: 100%;
+    margin-bottom: 5vh;
+    margin-left: 0px;
+    margin-right: auto;
+    display: block;
+  }
+  .about-text {
+    width: 110%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-overflow: ellipsis;
+  }
+  .about h1 {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .about p {
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10vh;
+    background-color: #D0B02D;
+    font-size: 140%;
+  }
+  .mvg-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+  }
+  .mvg-align p {
+    font-size: 5 rem;
+    padding: 10px;
+    padding-right: 100px;
+    align-items: center;
+  }
+  .mvg-align img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 10vh;
+    background-color: #D0B02D;
+    font-size: 140%;
+  }
+  .wcs {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-size: 130%;
+  }
+  .wcs h1 {
+    margin: 0px;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+  .wcs-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  .para-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+  }
+  .para-align img {
+    width: 20%;
+    padding-bottom: 3vh;
+    padding-top: 5vh;
+  }
+  .para-align h4 {
+    font-size: 2rem;
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+  .para-align p {
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 90%;
+    text-align: start;
   }
 }/*# sourceMappingURL=style.css.map */
