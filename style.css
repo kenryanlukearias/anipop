@@ -662,6 +662,14 @@ li a {
     width: 100px;
     padding: 5px;
   }
+  nav ul li {
+    display: contents;
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 768px) {
   .about {
