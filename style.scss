@@ -1067,12 +1067,14 @@ li a {
     justify-content: center;
     align-items: center;
     margin: 0px;
+    width: auto;
+    padding-left: 0%;
   }
   .para-align {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-right: 0px;
+    padding-right: 70px;
+    width: auto;
   }
   .para-align img {
     width: 20%;
