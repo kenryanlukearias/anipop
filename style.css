@@ -765,6 +765,7 @@ li a {
     align-items: center;
     padding-right: 0px;
     width: auto;
+    text-align: center;
   }
   .para-align img {
     width: 20%;
