@@ -762,7 +762,7 @@ li a {
   .para-align {
     display: flex;
     flex-direction: column;
-    padding-right: 0px;
+    padding-right: 70px;
     width: auto;
   }
   .para-align img {
