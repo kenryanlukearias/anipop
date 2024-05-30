@@ -631,59 +631,6 @@ li a {
     padding: 15px;
   }
 }
-@media (max-width: 480px) {
-  .main-title {
-    font-size: 2rem;
-  }
-  .main-text {
-    font-size: 1rem;
-  }
-  .contact, .survey, .sag-desc, .home-contact-p, .desc-p, .footer-text {
-    width: 100%;
-  }
-  .sag-image {
-    width: 30%;
-  }
-  .freights-box, .freights, .sag-brief, .sag-desc {
-    flex-direction: column;
-    padding: 23px;
-  }
-  .freights-box, .sag-brief, .sag-desc {
-    width: 100%;
-  }
-  .freights-box {
-    height: auto;
-  }
-  .quote-button {
-    width: 100px;
-    padding: 2vh;
-  }
-  nav ul li a {
-    font-size: 20px;
-  }
-  nav ul li {
-    justify-content: center;
-  }
-  .main-body {
-    height: 40vh;
-  }
-  footer {
-    display: none;
-  }
-  .footer-text {
-    padding: 1rem;
-  }
-  .wcs {
-    width: 100%;
-  }
-  .mvg-align {
-    width: 200%;
-  }
-  .mvg-align div {
-    width: 100%;
-    margin: 0px;
-  }
-}
 @media screen and (max-width: 768px) {
   .about {
     flex-direction: column;
@@ -790,6 +737,245 @@ li a {
     text-align: center;
   }
   footer {
-    display: none;
+    margin-top: 50px;
   }
+  #logo-container {
+    width: 40%;
+    height: 0%;
+  }
+  .Details {
+    height: 20%;
+  }
+  .contactdeets {
+    display: flex;
+    height: 55%;
+    justify-content: center;
+    align-items: center;
+  }
+  .Contact {
+    height: 20%;
+  }
+  .Social-Media {
+    height: 20%;
+  }
+  .rawr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+  }
+  .rawr li {
+    padding: 0px;
+    width: 40px;
+  }
+  .rawr li img {
+    padding: 20px 0px;
+    height: auto;
+    width: 90%;
+  }
+  .survey {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .submit-button {
+    padding: 15px 50px;
+  }
+  .quote-button {
+    padding: 20px;
+  }
+  footer {
+    margin-top: 50px;
+  }
+  #logo-container {
+    width: 40%;
+    height: 0%;
+  }
+  .sag-logo {
+    border-right: black 1px solid;
+    width: 90%;
+    height: auto;
+    margin: 0px;
+    padding: 10px;
+  }
+  .Details {
+    height: 20%;
+  }
+  .contactdeets {
+    display: flex;
+    height: 55%;
+    justify-content: center;
+    align-items: center;
+  }
+  .Contact {
+    height: 20%;
+  }
+  .Social-Media {
+    height: 20%;
+  }
+  .rawr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+  }
+  .rawr li {
+    padding: 0px;
+    width: 40px;
+  }
+  .rawr li img {
+    padding: 20px 0px;
+    height: auto;
+    width: 90%;
+  }
+  .social-media ul li {
+    padding: 5px;
+  }
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 2rem;
+  }
+  .main-text {
+    font-size: 1rem;
+  }
+  .contact, .survey, .sag-desc, .home-contact-p, .desc-p, .footer-text {
+    width: 100%;
+  }
+  .sag-image {
+    width: 30%;
+  }
+  .freights-box, .freights, .sag-brief, .sag-desc {
+    flex-direction: column;
+    padding: 23px;
+  }
+  .freights-box, .sag-brief, .sag-desc {
+    width: 100%;
+  }
+  .freights-box {
+    height: auto;
+  }
+  .quote-button {
+    width: 100px;
+    padding: 2vh;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  nav ul li {
+    justify-content: center;
+  }
+  .main-body {
+    height: 40vh;
+  }
+  .footer-text {
+    padding: 1rem;
+  }
+  .wcs {
+    width: 100%;
+  }
+  .mvg-align {
+    width: 200%;
+  }
+  .mvg-align div {
+    width: 100%;
+    margin: 0px;
+  }
+  footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #logo-container {
+    width: 40%;
+    height: 0%;
+  }
+  footer h3 {
+    padding: 0px;
+  }
+  .sag-logo {
+    border-bottom: black 1px solid;
+    border-right: rgb(255, 255, 255) 1px solid;
+    width: 90%;
+    height: auto;
+    margin: 0px;
+  }
+  .Details {
+    height: 20%;
+  }
+  .contactdeets {
+    display: flex;
+    height: 55%;
+    justify-content: center;
+    align-items: center;
+  }
+  .Contact {
+    height: 20%;
+  }
+  .Social-Media {
+    height: 20%;
+  }
+  .rawr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+  }
+  .rawr li {
+    padding: 0px;
+    width: 40px;
+  }
+  .rawr li img {
+    padding: 20px 0px;
+    height: auto;
+    width: 90%;
+  }
+  .about {
+    padding: 0px;
+    padding-bottom: 50px;
+  }
+  .about-text p {
+    padding: 0px;
+  }
+}
+.mvg-align p {
+  padding: 0%;
+}
+
+.mvg-align {
+  margin: 0px;
+}
+
+.mvg-tab {
+  padding: 50px;
+}
+
+.para-align div {
+  width: 350px;
 }/*# sourceMappingURL=style.css.map */
