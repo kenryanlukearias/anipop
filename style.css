@@ -735,8 +735,8 @@ li a {
   }
   .mvg-align p {
     padding: 10px;
-    padding-right: 100px;
-    padding-left: 50px;
+    padding-right: 70px;
+    padding-left: 80px;
     align-items: center;
   }
   .mvg-align img {
@@ -745,8 +745,8 @@ li a {
     justify-content: center;
     align-items: center;
     margin: 50px;
-    padding-left: 130px;
-    width: 50%;
+    padding-left: 140px;
+    width: 60%;
     background-color: #D0B02D;
   }
   .wcs {
@@ -759,7 +759,7 @@ li a {
     margin: 0px;
     font-size: 40px;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 50px;
   }
   .wcs-one {
     display: flex;
