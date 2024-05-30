@@ -905,12 +905,12 @@ footer {
 
   .about img {
     width: 100%;
-    margin-bottom: 5vh;
+    margin-bottom: 8px;
     margin-left: 0px;
   }
 
   .about-text {
-    width: 110%;
+    width: 120%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1013,35 +1013,35 @@ footer {
   
 
   //about page
-  .about h1 {
-    font-size: 1rem;
-  }
+//   .about h1 {
+//     font-size: 1rem;
+//   }
   
-  .about p {
-    font-size: 1rem;
-    padding: 10px;
-    width: 120%;
-  }
+//   .about p {
+//     font-size: 1rem;
+//     padding: 10px;
+//     width: 120%;
+//   }
 
-  .mvg-tab{
-    padding: 1rem;
-    font-size: 1rem;
-  }
+//   .mvg-tab{
+//     padding: 1rem;
+//     font-size: 1rem;
+//   }
 
-  .contact{
-    font-size: 1rem;
-    margin-top: 10px;
-  }
+//   .contact{
+//     font-size: 1rem;
+//     margin-top: 10px;
+//   }
 
-  .contact p{
-    font-size: 15px;
-    margin-bottom: 2rem;
-  }
+//   .contact p{
+//     font-size: 15px;
+//     margin-bottom: 2rem;
+//   }
 
-  .contact-details{
-    width: 50%;
+//   .contact-details{
+//     width: 50%;
     
-  }
+//   }
 
   footer {
     display: none;
