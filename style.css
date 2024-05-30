@@ -669,89 +669,16 @@ li a {
   }
   nav ul li a {
     font-size: 20px;
+    padding: 5px;
   }
   .main-body {
-    height: 30vh;
+    height: 40vh;
   }
   footer {
-    display: block;
-  }
-  .sag-logo {
     display: none;
   }
-  .Details {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-    font-size: 130%;
-  }
-  .Details ul li {
-    list-style: none;
-    padding: 1.5vh;
-  }
-  .Contact {
-    display: flex;
-    padding-right: 10px;
-  }
-  .contactdeets {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .deets img {
-    width: 15%;
-  }
-  .spacer-deets {
-    margin: 20px;
-    display: flex;
-  }
-  .spacer-deets p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 9%;
-  }
-  .Social-Media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    list-style: none;
-    flex-direction: column;
-    padding: 20px;
-  }
-  .Social-Media img {
-    width: 200%;
-    height: auto;
-    color: black;
-    padding: 20px;
-  }
-  h3 {
-    font-size: 2rem;
-    color: black;
-    padding-left: 30px;
-  }
-  .rawr {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    list-style: none;
-  }
   .footer-text {
-    font-size: 1.5rem;
-    text-align: center;
-    color: black;
-  }
-  li {
-    list-style: none;
-    padding: 30px;
-  }
-  li a {
-    color: black;
+    padding: 1rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -839,14 +766,12 @@ li a {
     justify-content: center;
     align-items: center;
     margin: 0px;
-    width: auto;
-    padding-left: 0%;
   }
   .para-align {
     display: flex;
     flex-direction: column;
-    padding-right: 70px;
-    width: auto;
+    align-items: center;
+    padding-right: 0px;
   }
   .para-align img {
     width: 20%;

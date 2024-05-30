@@ -849,121 +849,27 @@ nav ul li {
 
 nav ul li a {
   font-size: 20px;
+  padding: 5px;
 }
 
 // title
 
 //main content SCSS
 .main-body {
-  height: 30vh;
+  height: 40vh;
 }
 
 //footer
 footer {
-  display:block;
+  display:none;
 }
 
-
-.sag-logo{
-  display: none;
+.footer-text{
+  padding: 1rem;
 }
 
+//About us
 
-.Details {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  justify-content: center;
-  align-items: center;
-  // background-color: red;
-  font-size: 130%;
-}
-
-.Details ul li{
-  list-style: none; // remove bullet points
-  padding: 1.5vh;
-}
-
-
-
-.Contact {
-  display: flex;
-  // background-color: blue;
-  padding-right: 10px;
-}
-
-  
-.contactdeets {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.deets img {
-  width: 15%;
-}
-
-.spacer-deets {
-  margin: 20px;
-  display: flex;
-}
-
-.spacer-deets p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 9%;
-}
-
-.Social-Media {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-  list-style: none; // remove bullet points
-  flex-direction: column;
-  padding: 20px;
-  // background-color: green;
-}
-.Social-Media img {
-  width: 200%;
-  height: auto;
-  color: black;
-  padding: 20px;
-  
-} //footer img SCSS
-
-h3 {
-  font-size: 2rem;
-  color: black;
-  padding-left: 30px;
-}
-
-
-.rawr {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  list-style: none; // remove bullet points
-}
-
-
-.footer-text {
-  font-size: 1.5rem;
-  text-align: center; // Add this line to center align the text
-  color: black;
-}
-
-li {
-  list-style: none; // remove bullet points
-  padding: 30px;
-}
-
-li a {
-  color: black;
-}
 }
 
 
@@ -1067,14 +973,12 @@ li a {
     justify-content: center;
     align-items: center;
     margin: 0px;
-    width: auto;
-    padding-left: 0%;
   }
   .para-align {
     display: flex;
     flex-direction: column;
-    padding-right: 70px;
-    width: auto;
+    align-items: center;
+    padding-right: 0px;
   }
   .para-align img {
     width: 20%;
