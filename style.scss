@@ -839,6 +839,17 @@ li a {
     width: 100px;
     padding: 5px;
   }
+  
+  // Navigation bar Responsive
+nav ul li {
+  display:contents;
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
+
+nav ul li a {
+  font-size: 20px;
+}
 }
 
 
@@ -967,3 +978,4 @@ li a {
     text-align: start;
   }
 }
+
