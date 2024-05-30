@@ -790,4 +790,27 @@ li a {
     width: 90%;
     text-align: start;
   }
+  .about h1 {
+    font-size: 1rem;
+  }
+  .about p {
+    font-size: 1rem;
+    padding: 10px;
+    width: 120%;
+  }
+  .mvg-tab {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .contact {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .contact p {
+    font-size: 15px;
+    margin-bottom: 2rem;
+  }
+  .contact-details {
+    width: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */
