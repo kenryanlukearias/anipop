@@ -10,11 +10,11 @@
 <nav>
         <img class="sag-image" src="SAGSHIPPING.jpg" alt="SAGSHIPPING">
         <ul>
-            <li><a href="index.php">HOME</a></li>
-            <li><a href="about.php">ABOUT US</a></li>
-            <li><a href="quote(change to php).php">CONTACTS</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="quote(change to php).html">CONTACTS</a></li>
         </ul>
-        <a class="quote-button" href="quote.php">QUOTE</a>
+        <a class="quote-button" href="quote.html">QUOTE</a>
     </nav>
 
     <div>
@@ -27,9 +27,8 @@
       </div><br><br><br>
 
 
-
       <div>
-        <form class="form" action="mail.php" method="post">
+        <form class="form" action="mail.html" method="post">
 
 
         <div class="survey">
@@ -78,10 +77,10 @@
 
   <div class="Details">
       <ul class="quote">
-          <li><a href="index.php">Home</a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a href="contact.php">Contact</a></li>
-          <li><a href="quote.php">Quote</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="quote.html">Quote</a></li>
       </ul>
   </div>
 
