@@ -10,11 +10,11 @@
     <nav>
         <img class="sag-image" src="SAGSHIPPING.jpg" alt="SAGSHIPPING">
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT US</a></li>
-            <li><a href="contact.html">CONTACTS</a></li>
+            <li><a href="index.php">HOME</a></li>
+            <li><a href="about.php">ABOUT US</a></li>
+            <li><a href="contact.php">CONTACTS</a></li>
         </ul>
-        <a class="quote-button" href="quote(change to php).html">QUOTE</a>
+        <a class="quote-button" href="quote.php">QUOTE</a>
     </nav>
 
 
@@ -43,7 +43,7 @@
 
             <img src="Images\ph--target-bold.svg" alt="Goals">
             <div>
-                <p class="mission">Goals</p><br>
+                <.php class="mission">Goals</p><br>
                 <p>Goal to constantly improve our skills and grow our worldwide reach, establishing ourselves as a market leader in the shipping sector. We endeavor to maximize efficiency throughout our operations, increase customer happiness, and uphold a strong commitment to environmental stewardship.</p>
             </div>
             
@@ -124,9 +124,9 @@
     <div class="Details">
         <ul class="quote">
             <li><a href="index.php">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="quote(change to php).php">Contact</a></li>
-            <li><a href="quote(change to php).php">Quote</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="quote.php">Quote</a></li>
         </ul>
     </div>
 
